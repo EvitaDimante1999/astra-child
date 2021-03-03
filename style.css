@@ -111,3 +111,9 @@ font{
         line-height: 1.7;
         font-size: 1.1em;
       }
+      body {
+        color: #808285;
+        background: #ffffff;
+        /* Fallback for when there is no custom background color defined. */
+        font-style: normal;
+      }
