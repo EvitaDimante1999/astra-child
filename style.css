@@ -29,3 +29,39 @@ font{
       a:hover {
         outline: 0;
       }
+      .screen-reader-text {
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        word-wrap: normal !important;
+      }
+    
+      .wp-caption {
+        margin-bottom: 1.5em;
+        max-width: 100%;
+      }
+      
+      .wp-caption img[class*="wp-image-"] {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .ast-button-wrap .menu-toggle {
+        padding: 0;
+        width: 2.2em;
+        height: 2.1em;
+        font-size: 1.5em;
+        font-weight: normal;
+        border-radius: 2px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        border-radius: 2px;
+        vertical-align: middle;
+        line-height: 1.85714285714286;
+      }
