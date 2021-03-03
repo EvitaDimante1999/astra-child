@@ -14,4 +14,18 @@ font{
     font-family: 'Poppins', sans-serif;
     }
 
-    
+    nav a {
+        color: #4F57A6;
+      }
+      
+      a:hover, a:focus {
+        color: #8AD1F4;
+      }
+      
+      a:focus {
+        outline: thin dotted;
+      }
+      
+      a:hover {
+        outline: 0;
+      }
