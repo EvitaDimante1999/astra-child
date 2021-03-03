@@ -28,7 +28,6 @@ font{
       
       a:hover {
         outline: 0;
-        color: aqua;
       }
       .screen-reader-text {
         border: 0;
@@ -53,7 +52,6 @@ font{
         margin-right: auto;
       }
     
-    
       .ast-button-wrap .menu-toggle {
         padding: 0;
         width: 2.2em;
@@ -68,10 +66,4 @@ font{
         line-height: 1.85714285714286;
       }
 
-      blockquote {
-        margin: 1.5em 1em 1.5em 3em;
-        padding: 1.2em;
-        font-size: 1.1em;
-        line-height: inherit;
-        position: relative;
-      }
+      
